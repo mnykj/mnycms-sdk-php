@@ -1,0 +1,22 @@
+{
+    "name": "mnykj/mnycms-sdk-php",
+    "description": "a php good tool,welcome to my website:www.mnykj.com。",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mnykj\\MnycmsSdkPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mnykj",
+            "email":"211983651@qq.com"
+
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php":">=5.3"
+    }
+}
