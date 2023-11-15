@@ -6,7 +6,7 @@
  * @email 211983651@qq.com
  */
 
-namespace mnykj\MnyTool;
+namespace mnycms\tool;
 
 /**
  * Class R
