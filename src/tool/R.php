@@ -41,4 +41,8 @@ class R
         $arr = ["code"=>1,"msg"=>$msg,"data"=>['total'=>$total,'list'=>$list]];
         return json($arr);
     }
+
+    public static function error($msg = "请求失败"){
+        return json(["code"=>0,"msg"=>$msg]);
+    }
 }
