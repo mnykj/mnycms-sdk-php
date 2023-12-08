@@ -43,6 +43,6 @@ class R
     }
 
     public static function error($msg = "请求失败"){
-        return json(["code"=>0,"msg"=>$msg]);
+        return json_encode(["code"=>0,"msg"=>$msg]);
     }
 }
