@@ -21,6 +21,6 @@ class UrlTool
     public static function getEnvUrl(){
         $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' : 'http://';
         $domain = $_SERVER['SERVER_NAME'];
-        return $protocol.$domain;
+        return $protocol.$domain."/";
     }
 }

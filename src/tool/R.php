@@ -45,4 +45,18 @@ class R
     public static function error($msg = "请求失败"){
         return json_encode(["code"=>0,"msg"=>$msg]);
     }
+
+    /**
+     * layui的表单提交返回格式
+     */
+    public static function layuiForm($msg="操作成功"){
+        return json(["code"=>1,"msg"=>$msg]);
+    }
+
+    /**
+     * layui的表格提交返回格式
+     */
+    public static function layuiTable($count,$data){
+        return json(["code"=>0,"count"=>$count,"data"=>$data]);
+    }
 }
