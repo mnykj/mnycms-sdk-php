@@ -11,7 +11,7 @@ namespace Mnykj\MnycmsSdkPhp\util;
 /**
  * Class UrlTool
  * @package Mnykj\MnycmsSdkPhp\tool
- * url工具类
+ * url工具类1
  */
 class UrlUtil
 {
